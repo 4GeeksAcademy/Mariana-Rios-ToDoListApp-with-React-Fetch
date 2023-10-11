@@ -1,12 +1,38 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.itemsLeft {
+    display: flex;
+    justify-content: start;
+    color: palevioletred;
+}
+.deletebtn {
+    visibility: hidden;
+    margin-right: 10px;
+    background-color: pink;
+    color: white;
+}
+.tasksUL {
+    list-style-type: none;
+    text-align: start;
+    padding: 0px;
+}
+.header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+    color: palevioletred;
+}
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:pink;
+    border: 0.5px solid whitesmoke;
+    color: white;
+    padding-left: 5px;
+}
+.inputLine {
+    background-color: whitesmoke;
+}
+.container {
+    background-color: lightgrey;
+    width: 800px;
+    border: 1px solid black;
+}
